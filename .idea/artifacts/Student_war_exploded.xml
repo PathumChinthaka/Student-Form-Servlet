@@ -14,6 +14,14 @@
         <element id="directory" name="classes">
           <element id="module-output" name="Student" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.eclipse:yasson:3.0.2" />
+          <element id="library" level="project" name="Maven: org.eclipse.parsson:parsson:1.1.0" />
+          <element id="library" level="project" name="Maven: jakarta.json:jakarta.json-api:2.1.2" />
+          <element id="library" level="project" name="Maven: jakarta.json.bind:jakarta.json.bind-api:3.0.0" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.30" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.19.4" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/Student-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />

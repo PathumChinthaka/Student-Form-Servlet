@@ -1,13 +1,13 @@
 package com.example.student.dto;
 
-public class Student {
+public class StudentDTO {
     private int studentID;
     private String name;
     private String city;
     private String email;
     private int level;
 
-    public Student(int studentID, String name, String city, String email, int level) {
+    public StudentDTO(int studentID, String name, String city, String email, int level) {
         this.studentID = studentID;
         this.name = name;
         this.city = city;
@@ -15,7 +15,7 @@ public class Student {
         this.level = level;
     }
 
-    public Student() {
+    public StudentDTO() {
     }
 
     public int getStudentID() {
@@ -60,7 +60,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "StudentDTO{" +
                 "studentID=" + studentID +
                 ", name='" + name + '\'' +
                 ", city='" + city + '\'' +
